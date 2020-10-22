@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+strong{
+    color: red;
+    font-family: cursive;
+}
+
+.nav-link:hover{
+  border-bottom: 2px solid orange;
+}
+.active{
+  border-bottom: 2px solid orange;
+
+}
+#home{
+    /* border: 2px solid red; */
+    margin-top: 100px auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Piazzolla', serif;
+    
+}
+
+
+#home-img{
+    background: transparent;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+.image-row{
+  margin-top: 50px;
+  margin: 0;
+  text-align: center;
+}
+#display{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+.display-h5{
+    text-align: center;
+    margin: 30px;
+}
+
+.view_detail{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin: 10px;
+}
+
+.case-cards{
+  margin: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.rotate {
+    animation: rotation 20s linear infinite;
+  }
+
+  @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.about-covid{
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.about-covid h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#symptoms h3{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.symptoms{
+  text-align: center;
+}
+
+
+.btn a{
+  color: white;
+}
+
+.btn  a:hover{
+  color: white;
+  text-decoration: none;
+}
+.sam{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid red;
+  text-align: center;
+}
+
+.card-img-top{
+  border: 2px solid blue;
+}
